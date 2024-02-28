@@ -1,0 +1,72 @@
+h1,
+img,
+p {
+  font-family: serif;
+}
+
+h1 {
+  color: rgb(103, 16, 78);
+  font-size: 77px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  word-spacing: 30px;
+  -webkit-text-stroke-width: thick;
+}
+
+p {
+  text-align: center;
+  font-size: 47px;
+}
+
+body {
+  margin: 500;
+  padding: 1000;
+  background-image: url("gallery/bbiii-Recovered.gif");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 8700px;
+}
+
+.image-container {
+  border: 2px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: -30px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-grid img {
+  width: 570px; /* Adjust the width as needed */
+  height: 570px; /* Adjust the height as needed */
+  margin: 97px; /* Adjust the margin between images */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+}
+
+a {
+  font-size: 49px;
+  text-decoration: none;
+  display: flex;
+}
+
+a:link {
+  color: rgb(128, 188, 140);
+}
+
+a:visited {
+  /*color: #777; */
+  color: rgb(53, 11, 49);
+}
+
+a:hover {
+  color: rgb(159, 196, 172);
+  font-weight: bold;
+}
