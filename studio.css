@@ -52,8 +52,8 @@ body {
 }
 
 a {
-  font-size: 49px;
-  text-decoration: none;
+  font-size: 77px;
+  text-decoration: overline;
   display: flex;
 }
 
