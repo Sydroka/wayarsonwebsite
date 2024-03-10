@@ -26,6 +26,62 @@ a:hover {
   font-weight: bold;
 }
 
+.tree h3 {
+  font-size: 57px;
+  margin-top: -4px;
+}
+
+.wood p {
+  float: left;
+  width: 40%;
+  font-size: 57px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+  margin-left: 40px;
+  text-decoration: underline;
+  margin-top: -24px;
+}
+
+.leaf p {
+  float: left;
+  width: 40%;
+  font-size: 57px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+  margin-left: 40px;
+  margin-top: -24px;
+}
+
+.apple div {
+  float: left;
+  width: 40%;
+  font-size: 47px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+  margin-left: 40px;
+  margin-top: -35px;
+  margin-bottom: 40px;
+}
+
+.mm {
+  display: block;
+  margin: 0 auto;
+}
+
+img.mix {
+  max-width: 30%;
+  height: auto;
+  margin-left: 207px;
+  border-radius: 107px;
+}
+
+img.master {
+  max-width: 30%;
+  height: auto;
+  border-radius: 107px;
+  margin-left: 200px;
+}
+
 h1 {
   color: rgb(103, 16, 78);
   font-size: 77px;
@@ -35,11 +91,11 @@ h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   word-spacing: 30px;
-  -webkit-text-stroke-width: thick;
+  -webkit-text-stroke-width: medium;
 }
 
 h2 {
-  font-size: 44px;
+  font-size: 57px;
   line-height: 0.5;
   color: rgba(31, 87, 69, 0.933);
   text-align: center;
@@ -47,7 +103,7 @@ h2 {
 }
 
 h3 {
-  font-size: 44px;
+  font-size: 57px;
   line-height: 0.5;
   color: rgba(23, 74, 57, 0.971);
   text-align: center;
@@ -79,6 +135,13 @@ body {
   font-size: 33px;
   text-align: center;
   -webkit-text-stroke-width: medium;
+}
+
+.tryag {
+  height: 400px;
+  width: 1000px;
+  padding-left: 283px;
+  margin-top: 500px;
 }
 
 aside {
