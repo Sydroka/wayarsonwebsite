@@ -24,11 +24,11 @@
     <header class="main-header">
       <h1>Wayarson Music</h1>
       <nav>
-        <a href="gearserv.html"> <strong>Gear List/ Services</strong></a>
-        <a href="studio.html"><strong>Studio Tour</strong></a>
-        <a href="music.html"><strong>Music</strong></a>
-        <a href="gallery.html"><strong>Artist Gallery</strong></a>
-        <a href="contact.html"><strong>Contact</strong></a>
+        <a href="gearserv.html"> Gear List/ Services</a>
+        <a href="Studio.html">Studio Tour</a>
+        <a href="music.html"   class="mus">Music</a>
+        <a href="gallery.html">Artist Gallery</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
@@ -58,20 +58,48 @@
           -webkit-text-stroke-width: thick;
           padding: 20px;
       }
+
+      .texto {
+        position: absolute;
+          top: 10%;
+          left: 122%;
+          transform: translate(-50%, -50%);
+          color: rgb(2, 47, 14);
+          font-size: 44px;
+          letter-spacing: 22px;
+          -webkit-text-stroke-width: thick;
+          padding: 70px;
+      }
+      .texto {
+  white-space: nowrap; /* Prevents words from wrapping to the next line */
+}
+
+.texto span {
+  display: inline-block; /* Display words inline */
+  margin-right: 10px; /* Add some space between words (adjust as needed) */
+}
+
   </style>
   </head>
   <body>
   <div class="container">
       <img src="gallery/bigbog.jpg" alt="overbog" class="stilltrying">
-      <div class="text">
-          $40/hour
+      <div class="texto">
+          <span>Built</span>
+          <span>For</span>
+          <span>Bands</span>
       </div>
+
+      <div class="text">
+           $40/hour
+    </div>
+
   </div>
    
-    <img class="tryag" src="gallery/prod.png" alt="production" />
+    
 
     <footer>
-      <p id="copyright"><strong>Copyright &copy; 2023 Wayarson</strong></p>
+      <p id="copyright"><strong>Copyright &copy; 2023 Wayarson Music</strong></p>
     </footer>
   </body>
  
