@@ -1,40 +1,98 @@
-h1,
 p {
   font-family: serif;
-}
-
-h1 {
-  color: rgb(103, 16, 78);
-  font-size: 77px;
-  text-transform: uppercase;
-  font-style: italic;
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  word-spacing: 30px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   background-image: url("gallery/bbiii-Recovered.gif");
-
-  /*https://media1.tenor.com/images/ce68d1ed80bb50f9223d56beb45906f6/tenor.gif?itemid=12645956 */
-
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
 
-p {
+h1 {
+  color: rgb(140, 23, 107);
   font-size: 77px;
-  -webkit-text-stroke-width: medium;
-  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke-width: thin;
+
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 27px;
+}
+
+h5 {
+  font-size: 37px;
+  word-spacing: 77px;
+}
+
+.alexsbio {
+  background-color: #333333f3;
+  color: rgb(239, 116, 116);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 77px;
+}
+
+.mesbio {
+  background-color: #333333f3;
+  color: rgb(239, 116, 116);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 77px;
+  padding-bottom: 177px;
+}
+
+/* for maxs space :)
+.maxsbio {
+  background-color: #333333f3;
+  color: rgb(239, 116, 116);
+  padding: 10px;
+  text-align: center;
+}
+*/
+
+#pic {
+  width: 677px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  border-radius: 233px;
+  margin-top: 34px;
+}
+
+#pic2 {
+  width: 399px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  border-radius: 233px;
+}
+
+.shadow {
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 #gallery-text {
-  color: rgba(19, 56, 11, 0.712);
+  color: rgb(1, 2, 1);
   text-align: center;
   float: left;
+  letter-spacing: 10px;
 }
 
 #gallery-text-left {
@@ -42,14 +100,16 @@ p {
   float: left;
 }
 
-a {
-  font-size: 77px;
-  text-decoration: overline;
-  display: flex;
+span {
+  font-family: serif;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-a:link {
-  color: rgb(128, 188, 140);
+a {
+  font-size: 107px;
+  text-decoration: none;
+  display: flex;
 }
 
 a:visited {
