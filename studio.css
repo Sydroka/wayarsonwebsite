@@ -1,9 +1,3 @@
-h1,
-img,
-p {
-  font-family: serif;
-}
-
 h1 {
   color: rgb(103, 16, 78);
   font-size: 77px;
@@ -13,12 +7,8 @@ h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   word-spacing: 30px;
+  letter-spacing: 8px;
   -webkit-text-stroke-width: thick;
-}
-
-p {
-  text-align: center;
-  font-size: 47px;
 }
 
 body {
@@ -28,7 +18,6 @@ body {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 8700px;
 }
 
 .image-container {
@@ -45,20 +34,16 @@ body {
 }
 
 .image-grid img {
-  width: 570px; /* Adjust the width as needed */
-  height: 570px; /* Adjust the height as needed */
-  margin: 97px; /* Adjust the margin between images */
-  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+  width: 570px;
+  height: 570px;
+  margin: 97px;
+  object-fit: cover;
 }
 
 a {
-  font-size: 77px;
-  text-decoration: overline;
+  font-size: 107px;
+  text-decoration: none;
   display: flex;
-}
-
-a:link {
-  color: rgb(128, 188, 140);
 }
 
 a:visited {
