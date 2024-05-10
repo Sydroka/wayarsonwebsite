@@ -56,18 +56,16 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
   color: rgb(2, 47, 14);
-  font-size: 20px;
+  font-size: 23px;
   letter-spacing: 3px;
   -webkit-text-stroke-width: thick;
 }
 
 .text-overlay h2 {
-  font-size: 2.5em; /* Adjust the font size as needed */
   margin-bottom: 10px;
 }
 
 .text-overlay p {
-  font-size: 53px; /* Adjust the font size as needed */
   margin: 0;
 }
 
@@ -93,4 +91,38 @@ a:hover {
 a:active {
   background-color: rgb(62, 153, 74);
   font-style: italic;
+}
+
+/*smaller screens */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    max-width: 100%;
+  }
+
+  .text-overlay h2 {
+    font-size: 30px;
+  }
+
+  .text-overlay p {
+    font-size: 30px;
+  }
+}
+
+/*larger screens */
+@media screen and (min-width: 1200px) {
+  .text-overlay {
+    padding: 20px;
+  }
+
+  .text-overlay h2 {
+    font-size: 40px;
+  }
+
+  .text-overlay p {
+    font-size: 40px;
+  }
 }
