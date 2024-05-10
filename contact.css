@@ -58,14 +58,14 @@ h5 {
   padding-bottom: 177px;
 }
 
-/* for maxs space :)
 .maxsbio {
   background-color: #333333f3;
   color: rgb(239, 116, 116);
   padding: 10px;
   text-align: center;
+  margin-bottom: 77px;
+  padding-bottom: 190px;
 }
-*/
 
 #pic {
   width: 677px;
@@ -77,7 +77,15 @@ h5 {
 }
 
 #pic2 {
-  width: 399px;
+  width: 377px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  border-radius: 233px;
+}
+
+#pic3 {
+  width: 243px;
   height: auto;
   float: left;
   margin-right: 10px;
