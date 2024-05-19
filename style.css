@@ -96,19 +96,19 @@ a:active {
 /*smaller screens */
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .image-container {
-    max-width: 100%;
+    max-width: 93%;
   }
 
   .text-overlay h2 {
-    font-size: 30px;
+    font-size: 23px;
   }
 
   .text-overlay p {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
