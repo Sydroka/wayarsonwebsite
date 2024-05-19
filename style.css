@@ -24,6 +24,17 @@ h1 {
   -webkit-text-stroke-width: medium;
 }
 
+.colorbaby:after {
+  content: "WAYARSON MUSIC";
+  color: rgba(185, 100, 114, 0.668);
+  position: absolute;
+  top: 47px;
+  left: 16px;
+  height: 10%;
+  width: 97%;
+  z-index: -1;
+}
+
 nav {
   color: rgb(31, 80, 38);
   font-size: larger;
@@ -94,13 +105,41 @@ a:active {
 }
 
 /*smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   h1 {
-    font-size: 14px;
+    font-size: 37px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+  }
+  .colorbaby:after {
+    content: "WAYARSON MUSIC";
+    color: rgba(185, 100, 114, 0.668);
+    position: absolute;
+    top: 27px;
+    left: 22px;
+    height: 6%;
+    width: 90%;
+    z-index: -1;
   }
 
   .image-container {
-    max-width: 93%;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    bottom: 213px;
+    left: 233px;
+    right: 0;
+    padding: 0px;
   }
 
   .text-overlay h2 {
@@ -108,7 +147,18 @@ a:active {
   }
 
   .text-overlay p {
-    font-size: 25px;
+    font-size: 29px;
+  }
+
+  .main-header nav {
+    display: block;
+  }
+
+  .main-header nav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #125817;
   }
 }
 
