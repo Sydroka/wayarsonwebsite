@@ -96,7 +96,7 @@ a:active {
 /*smaller screens */
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 37px;
+    font-size: 27px;
     letter-spacing: 5px;
     word-spacing: 7px;
   }
@@ -113,32 +113,7 @@ a:active {
     padding-top: 30px;
   }
 
-  .text-overlay {
-    position: absolute;
-    bottom: 213px;
-    left: 233px;
-    right: 0;
-    padding: 0px;
-  }
 
-  .text-overlay h2 {
-    font-size: 23px;
-  }
-
-  .text-overlay p {
-    font-size: 29px;
-  }
-
-  .main-header nav {
-    display: block;
-  }
-
-  .main-header nav a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid #125817;
-  }
 }
 
 /*larger screens */
