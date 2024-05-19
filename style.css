@@ -24,17 +24,6 @@ h1 {
   -webkit-text-stroke-width: medium;
 }
 
-.colorbaby:after {
-  content: "WAYARSON MUSIC";
-  color: rgba(185, 100, 114, 0.668);
-  position: absolute;
-  top: 47px;
-  left: 16px;
-  height: 10%;
-  width: 97%;
-  z-index: -1;
-}
-
 nav {
   color: rgb(31, 80, 38);
   font-size: larger;
@@ -110,16 +99,6 @@ a:active {
     font-size: 37px;
     letter-spacing: 5px;
     word-spacing: 7px;
-  }
-  .colorbaby:after {
-    content: "WAYARSON MUSIC";
-    color: rgba(185, 100, 114, 0.668);
-    position: absolute;
-    top: 27px;
-    left: 22px;
-    height: 6%;
-    width: 90%;
-    z-index: -1;
   }
 
   .image-container {
